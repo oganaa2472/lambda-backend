@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+  - MyLambdaFunction:
+      Type: AWS::Lambda::Function
+      Properties:
+        Name: my-lambda-function-name
+        Alias: "live"
+        CurrentVersion: "1"
+        TargetVersion: "1"
